@@ -17,3 +17,5 @@ app.get('/remove/:name', (req, res) => {
 app.listen(8080,()=>{
     console.log('start localhost:8080')
 })
+
+module.exports = app
