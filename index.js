@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const data = {
+let data = {
     'phol':5,
     'bas':5
 }
